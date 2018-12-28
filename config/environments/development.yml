@@ -1,0 +1,2 @@
+secret_key_base: eInXt-G-Nq_KgvhyuOZ032u2zg8udsL_xS0yWxs-FM8
+database_url: postgres://slava:@localhost:5432/conduit_development

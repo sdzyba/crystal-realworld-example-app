@@ -1,0 +1,2 @@
+secret_key_base: RKHOHogCIpgzXZiCz8qD-Ox0zgl4k95Mjetdl1jmf9s
+database_url: postgres://slava:@localhost:5432/conduit_test

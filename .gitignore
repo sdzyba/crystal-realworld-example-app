@@ -1,0 +1,9 @@
+/doc/
+/lib/
+/.crystal/
+/.shards/
+/.vscode/
+/tmp/
+.env
+.DS_Store
+/bin/

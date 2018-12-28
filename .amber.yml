@@ -1,0 +1,16 @@
+type: app
+database: pg
+
+watch:
+  run:
+    build_commands:
+      - mkdir -p bin
+      - crystal build ./src/conduit.cr -o bin/conduit
+    run_commands:
+      - bin/conduit
+    include:
+      - ./config/**/*.cr
+      - ./src/**/*.cr
+      - ./src/**/*.ecr
+    exclude:
+      - ./src/db_cli.cr
